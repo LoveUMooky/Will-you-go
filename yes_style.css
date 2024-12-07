@@ -4,20 +4,27 @@ body {
     align-items: center;
     height: 100vh;
     background-color: rgb(189, 225, 122);
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
 }
 
 .header_text {
-    font-family: 'Nunito';
-    font-size: 50px;
-    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
     color: white;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 1rem;
 }
 
 .gif_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
